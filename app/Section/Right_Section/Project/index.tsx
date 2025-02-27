@@ -9,9 +9,9 @@ const projects = [
         img: "/web_portfolio.png",
         title: "Personal Portfolio Website",
         description: "การใช้ Next Js พัฒนาเว็บ Portfolio เพื่อใช้ในการแสดงผลงาน",
-        github: "https://github.com/MrThanakritt/MrThanakrit-Portfolio",
+        github: "https://github.com/MrThanakritt/Mrthanakrit-V.2",
         youtube: "",
-        chrome: "ds",
+        chrome: "https://mr-thanakrit-portfolio-snowy.vercel.app/",
         techs: [
             { name: "Next Js", color: "text-white group-hover:border-black" },
             { name: "TypeScript", color: "text-white group-hover:border-blue-600" },
