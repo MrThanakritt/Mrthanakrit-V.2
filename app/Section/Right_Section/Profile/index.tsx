@@ -6,18 +6,23 @@ import Image from "next/image";
 
 // โลโก้ที่ใช้ในแอนิเมชัน
 const scrollLogos = [
+    "/html_logo.png",
     "/css_logo.png",
-    "/flutter_logo.png",
+    "/tailwind_logo.png",
     "/js_logo.png",
+    "/ts_logo.png",
+    "/react_logo.png",
     "/nextjs_logo.png",
-    
+    "/vue_logo.png",
+    "/vite_logo.png",
+    "/flutter_logo.png",
 ];
 
 const Profile: FC = () => {
     return (
-        <div id="Profile-section" className="flex flex-col items-center justify-center space-y-4">
+        <div className="flex flex-col items-center justify-center space-y-4">
             {/* Profile Image */}
-            <div className="w-40 h-40 sm:w-44 sm:h-44 flex justify-center items-center mb-3">
+            <div className="w-40 h-40 sm:w-44 sm:h-44 flex justify-center items-center mb-3 " id="Profile-section">
                 <img src="/my_profile.jpg" alt="" className="w-full h-full object-cover rounded-full ring-4 ring-white ring-opacity-60 shadow-lg transition-all duration-300 ease-in-out hover:ring-8 hover:ring-pink-500 hover:scale-110 hover:shadow-2xl"
                 />
             </div>
@@ -30,8 +35,9 @@ const Profile: FC = () => {
             </div>
 
             {/* Profile Bio */}
-            <div className="text-center max-w-sm text-sm sm:text-base text-gray-600 dark:text-gray-300">
-                "ไม่ต้องเก่งตั้งแต่เริ่มต้น แต่เริ่มต้นแล้วต้องเก่งขึ้นเรื่อยๆ"
+            <div className="text-center max-w-sm sm:text-base text-gray-600 dark:text-gray-300">
+                "The best or nothing" <br />
+                <p>"ถ้าไม่ทำให้ดีที่สุดก็อย่าทำเลยดีกว่า"</p>
             </div>
 
             {/* Infinite Scroll Animation with Logos */}
@@ -45,7 +51,7 @@ const Profile: FC = () => {
                         ease: "linear",
                     }}
                 >
-                    {[...scrollLogos, ...scrollLogos, ...scrollLogos].map((src, index) => (
+                    {[...scrollLogos, ...scrollLogos, ...scrollLogos, ...scrollLogos].map((src, index) => (
                         <Image
                             key={index}
                             src={src}

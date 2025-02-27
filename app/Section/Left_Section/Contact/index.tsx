@@ -1,4 +1,4 @@
-import { faGithub, faMedium, faYoutube } from "@fortawesome/free-brands-svg-icons"
+import { faGithub, faMedium } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -18,11 +18,6 @@ const Contact = () => {
             <div>
                 <a href="mailto:thanakritcharoenchinnapat@gmail.com?subject=สวัสดีคุณธนกฤต&body=ฉันต้องการติดต่อคุณเรื่อง..." target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faEnvelope} className="w-8 h-8 hover:scale-110 hover:animate-pulse space-x-20 duration-200" />
-                </a>
-            </div>
-            <div>
-                <a href="mailto:thanakritcharoenchinnapat@gmail.com?subject=สวัสดีคุณธนกฤต&body=ฉันต้องการติดต่อคุณเรื่อง..." target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faYoutube} className="w-8 h-8 hover:scale-110 hover:animate-pulse space-x-20 duration-200" />
                 </a>
             </div>
         </div>

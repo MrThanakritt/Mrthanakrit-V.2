@@ -6,7 +6,7 @@ import Project from "./Project";
 const RightSection = () => {
     return (
         <>
-            <div className="grid gap-y-5 lg:gap-y-40 px-5">
+            <div className="grid gap-y-5 lg:gap-y-40 px-5 mb-28">
                 <Profile />
                 <Project />
                 <Experience />
