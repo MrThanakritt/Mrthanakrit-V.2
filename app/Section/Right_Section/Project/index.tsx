@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const projects = [
     {
         year: "",
-        img: "/web_portfolio.png",
+        img: "/personal_port.png",
         title: "Personal Portfolio Website",
         description: "การใช้ Next Js พัฒนาเว็บ Portfolio เพื่อใช้ในการแสดงผลงาน",
         github: "https://github.com/MrThanakritt/Mrthanakrit-V.2",
