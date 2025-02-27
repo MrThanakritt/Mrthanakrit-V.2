@@ -47,15 +47,15 @@ const Experience = () => {
 
                         {/* Right Section */}
                         <div className="flex-grow space-y-3">
-                            <h3 className="text-lg font-semibold text-gray-400 transition duration-300 group-hover:text-white whitespace-pre-line">
+                            <h3 className="text-base lg:text-lg font-semibold text-gray-400 transition duration-300 group-hover:text-white whitespace-pre-line">
                                 {exp.title}
                             </h3>
-                            <p className="text-base text-gray-400 transition duration-300 group-hover:text-gray-200 whitespace-pre-line">
+                            <p className="text-xs lg:text-base text-gray-400 transition duration-300 group-hover:text-gray-200 whitespace-pre-line">
                                 {exp.description}
                             </p>
 
                             {/* Tech Stack */}
-                            <div className="flex flex-wrap gap-3 text-sm font-medium">
+                            <div className="flex flex-wrap gap-3 text-xs lg:text-sm font-medium">
                                 {exp.techs.map((tech, i) => (
                                     <span
                                         key={i}

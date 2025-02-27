@@ -120,7 +120,7 @@ const Project = () => {
 
                         {/* Right Section */}
                         <div className="flex-grow space-y-3">
-                            <h3 className="text-lg font-semibold text-gray-400 transition duration-300 group-hover:text-white">
+                            <h3 className="text-base lg:text-lg font-semibold text-gray-400 transition duration-300 group-hover:text-white">
                                 {project.title}
                                 <FontAwesomeIcon
                                     icon={faArrowUpRightFromSquare}
@@ -158,16 +158,16 @@ const Project = () => {
 
 
                             {/* Description */}
-                            <p className="text-base text-gray-400 transition duration-300 group-hover:text-gray-200">
+                            <p className="text-xs lg:text-base text-gray-400 transition duration-300 group-hover:text-gray-200">
                                 {project.description}
                             </p>
 
                             {/* Tech Stack */}
-                            <div className="flex flex-wrap gap-4 text-sm font-medium">
+                            <div className="flex flex-wrap gap-3 lg:gap-4 text-xs lg:text-sm font-medium">
                                 {project.techs.map((tech, i) => (
                                     <span
                                         key={i}
-                                        className={`px-3 py-1 text-gray-400 border border-gray-400 rounded transition duration-300 group-hover:${tech.color}`}
+                                        className={`text-xs lg:text-sm px-2 lg:px-3 py-1 text-gray-400 border border-gray-400 rounded transition duration-300 group-hover:${tech.color}`}
                                     >
                                         {tech.name}
                                     </span>
