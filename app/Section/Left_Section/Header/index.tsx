@@ -10,7 +10,7 @@ const Header = () => {
                     <img src="/tp_logo.png" alt="School Logo" className="w-10 h-10" />
                 </a>
             </div>
-            <div className="text-base font-medium text-gray-300 w-4/5">
+            <div className="text-base font-medium text-gray-400 w-4/5">
                 การที่โลกเราพัฒนามากยิ่งขึ้น นั่นหมายความว่าเทคโนโลยีพัฒนามากขึ้น และเป้าหมายของผมคือการเป็นส่วนหนึ่งในการพัฒนาความก้าวหน้าของโลก
             </div>
         </div>
